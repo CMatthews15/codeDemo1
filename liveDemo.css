@@ -1,0 +1,47 @@
+*{
+    background:rgb(247, 156, 156) ;
+}
+
+h1{
+    background:white;
+    padding: 8px;
+    border: grey 2px solid;
+    border-radius: 50px;
+    margin-top:150px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+p{
+    background:white;
+    padding: 8px;
+    border: grey 2px solid;
+    border-radius: 50px;
+    margin-top:25px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    }
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around
+    ;
+    background-color: white;
+    border-radius: 50px;
+  }
+  
+  .flex-container > div {
+    background-color: grey;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 50px;
+  }
